@@ -1,9 +1,8 @@
-h1 {
-  font-family: 'Lato', sans-serif;
+* {
+  box-sizing: border-box;
 }
-p {
-  font-family: 'Big John', sans-serif;
-}
-a {
-  font-family: 'Slim Joe', sans-serif;
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
