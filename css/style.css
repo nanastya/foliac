@@ -1,0 +1,17 @@
+/*---------------------------------------
+Settings
+----------------------------------------*/
+@import url(settings/normalize.css);
+@import url(settings/typography.css);
+@import url(settings/general.css);
+
+/*---------------------------------------
+Parts
+----------------------------------------*/
+@import url(parts/header.css);
+@import url(parts/tabs.css);
+@import url(parts/banner.css);
+@import url(parts/contact-form.css);
+@import url(parts/footer.css);
+
+
