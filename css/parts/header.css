@@ -1,0 +1,31 @@
+.banner {
+  background-color: #3c4955;
+}
+.banner-nav {
+  font-size: 0;
+}
+.logo {
+  display: inline-block;
+  width: 20%;
+  vertical-align: middle;
+}
+.menu {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+  width: 80%;
+  font-size: 16px;
+  text-align: right;
+  vertical-align: middle;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 50px;
+}
+.menu li a {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
