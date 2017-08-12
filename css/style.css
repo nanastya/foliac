@@ -8,6 +8,7 @@ Settings
 /*---------------------------------------
 Parts
 ----------------------------------------*/
+@import url(parts/buttons-list.css);
 @import url(parts/header.css);
 @import url(parts/tabs.css);
 @import url(parts/banner.css);

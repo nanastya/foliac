@@ -1,0 +1,45 @@
+.tabs__nav-wrap {
+  text-align: center;
+}
+.tabs__nav {
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.tabs__col--narrow {
+  float: left;
+  width: 40%;
+  padding-right: 20px;
+}
+.tabs__col--wide {
+  float: right;
+  width: 60%;
+  padding-left: 20px;
+}
+.tabs__image-wrap {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.tabs__image-wrap--first {
+  height: 302px;
+  margin-bottom: 40px;
+  background-image: url("../../img/groupe-2.png");
+}
+.tabs__image-wrap--second {
+  height: 495px;
+  background-image: url("../../img/group-4.png");
+}
+.tabs__image-wrap--third {
+  height: 438px;
+  margin-bottom: 40px;
+  background-image: url("../../img/groupe-1.png");
+}
+.tabs__image-wrap--forth {
+  height: 359px;
+  background-image: url("../../img/group-3.png");
+}
+.tabs__image {
+  max-width: 100%;
+  opacity: 0;
+}
