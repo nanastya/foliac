@@ -9,11 +9,16 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+/*Container*/
 .container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
+.container--small {
+  max-width: 730px;
+}
+/*Button*/
 .btn {
   display: inline-block;
   min-width: 138px;
