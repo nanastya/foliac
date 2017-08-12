@@ -1,0 +1,30 @@
+.buttons-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.buttons-list__item {
+  float: left;
+  height: 32px;
+  margin-right: 12px;
+  padding: 0 15px;
+  border-radius: 2px;
+  background-color: #eaeaea;
+  color: #3c4955;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  transition: all .3s ease;
+}
+.buttons-list__item:hover {
+  cursor: pointer;
+  background-color: #48bf72;
+  color: white;
+}
+.buttons-list__item--active {
+  background-color: #48bf72;
+  color: #fff;
+}
+.buttons-list__item--last {
+  margin-right: 0;
+}
