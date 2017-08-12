@@ -25,3 +25,46 @@ body {
   line-height: 34px;
   text-decoration: none;
 }
+/*Hover block*/
+.info-hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(72, 191, 114, 0.7);
+  opacity: 0;
+  transition: all .3s ease;
+  text-align: center;
+}
+.info-hover--center {
+  display: inline-block;
+}
+.info-hover__text-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+.info-hover__text-wrap--first {
+  height: 302px;
+}
+.info-hover__text-wrap--second {
+  height: 495px;
+}
+.info-hover__text-wrap--third {
+  height: 438px;
+}
+.info-hover__text-wrap--fourth {
+  height: 359px;
+}
+.info-hover__title {
+  color: #ffffff;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.info-hover__subtitle {
+  color: #ffffff;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}

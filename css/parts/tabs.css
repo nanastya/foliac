@@ -16,10 +16,23 @@
   width: 60%;
   padding-left: 20px;
 }
+.tabs__info {
+  position: relative;
+}
+.tabs__info:hover .info-hover {
+  opacity: 1;
+}
+.tabs__info-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
 .tabs__image-wrap {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 6px;
 }
 .tabs__image-wrap--first {
   height: 302px;
@@ -35,7 +48,7 @@
   margin-bottom: 40px;
   background-image: url("../../img/groupe-1.png");
 }
-.tabs__image-wrap--forth {
+.tabs__image-wrap--fourth {
   height: 359px;
   background-image: url("../../img/group-3.png");
 }
