@@ -9,11 +9,20 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+
+/*Container*/
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
 }
+.container--small {
+  max-width: 730px;
+}
+
+/*Button*/
+
 .btn {
   display: inline-block;
   min-width: 138px;
@@ -25,7 +34,14 @@ body {
   line-height: 34px;
   text-decoration: none;
 }
+.btn--dark {
+  color: #3c4955;
+  border: 2px solid #3c4955;
+  text-transform: uppercase;
+}
+
 /*Hover block*/
+
 .info-hover {
   width: 100%;
   height: 100%;
@@ -67,4 +83,33 @@ body {
   line-height: 30px;
   font-size: 16px;
   font-weight: 400;
+}
+
+/*Banner*/
+.banner {
+  min-height: 650px;
+  padding-top: 30px;
+  /*  background-color: #3c4955;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.banner--header {
+  background-image: url("../../img/computer.png");
+}
+.banner--section {
+   background-image: url("../../img/men-computer.png");
+}
+.banner:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(60, 73, 85, .7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
