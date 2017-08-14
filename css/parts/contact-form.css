@@ -38,6 +38,11 @@
   float: left;
   padding-right: 15px;
 }
+.form__name:before {
+  content: "\f007";
+  font-family: 'FontAwesome';
+  color: #fff;
+}
 .form__email {
   float: right;
   padding-left: 15px;
